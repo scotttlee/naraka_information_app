@@ -49,6 +49,7 @@ class _ZipingScreenState extends State<ZipingScreen> {
                             Text('Ziping Yin',
                               style: TextStyle(
                                   fontSize: 36,
+                                  fontFamily: 'PermanentMarker',
                                   color: Colors.black,
                                   fontWeight: FontWeight.bold
                               ),
@@ -67,6 +68,7 @@ class _ZipingScreenState extends State<ZipingScreen> {
                           SizedBox(height: 10),
                           Text('Healer',
                             style: TextStyle(
+                              fontFamily: 'PermanentMarker',
                               color: Colors.black,
                               fontSize: 28,
                               fontWeight: FontWeight.bold,
@@ -106,6 +108,7 @@ class _ZipingScreenState extends State<ZipingScreen> {
                         "About",
                         style: TextStyle(
                           fontSize: 30,
+                          fontFamily: 'PermanentMarker',
                           fontWeight: FontWeight.bold,
                           letterSpacing: 1,
                           color: Colors.black,
@@ -115,7 +118,7 @@ class _ZipingScreenState extends State<ZipingScreen> {
                       const Text("Gifted and selfless, she gives her all in healing and treating anyone in need."
                         "Such is her medical skill that you'd be forgiven for thinking just her presence alone can heal the sick, or return the fallen from their eternal slumber.",
                         style: TextStyle(
-                          fontSize: 14,
+                          fontSize: 16,
                           fontWeight: FontWeight.w500,
                         ),
                       ),
@@ -127,6 +130,7 @@ class _ZipingScreenState extends State<ZipingScreen> {
                               "Skills",
                               style: TextStyle(
                                 fontSize: 30,
+                                fontFamily: 'PermanentMarker',
                                 fontWeight: FontWeight.bold,
                                 letterSpacing: 1,
                                 color: Colors.black,
@@ -138,6 +142,7 @@ class _ZipingScreenState extends State<ZipingScreen> {
                                   fontSize: 30,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1,
+                                  fontFamily: 'PermanentMarker',
                                   color: Colors.black,
                                 ))
                           ]
@@ -154,7 +159,7 @@ class _ZipingScreenState extends State<ZipingScreen> {
                                     "non-Focus strikes for a short period.",
 
                                 style: TextStyle(
-                                  fontSize: 14,
+                                  fontSize: 16,
                                   color: Colors.black,
                                 ),
                               ),
@@ -170,7 +175,7 @@ class _ZipingScreenState extends State<ZipingScreen> {
                                     "restore a certain amount of Health once the zone disappears.",
 
                                     style: TextStyle(
-                                      fontSize: 14,
+                                      fontSize: 16,
                                       color: Colors.black,
                                     ))
                             )

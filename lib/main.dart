@@ -79,7 +79,8 @@ class _MyHomePageState extends State<MyHomePage> {
             Text("Naraka Bladepoint Basics",
                 textAlign: TextAlign.center,
                 style:
-                TextStyle(fontSize: 46,
+                TextStyle(fontSize: 42,
+                    fontFamily: 'PermanentMarker',
                     fontWeight: FontWeight.w900)),
             SizedBox(height: 100),
             SizedBox(
@@ -94,6 +95,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 },
                 child: Text("ENTER", style: TextStyle(
                     fontSize: 36,
+                    fontFamily: 'PermanentMarker',
                   fontWeight: FontWeight.bold
                 )), ))
 

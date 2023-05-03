@@ -49,6 +49,7 @@ class _AkosScreenState extends State<AkosScreen> {
                             Text('Akos Hu',
                               style: TextStyle(
                                 fontSize: 36,
+                                  fontFamily: 'PermanentMarker',
                                 color: Colors.black,
                                 fontWeight: FontWeight.bold
                               ),
@@ -67,6 +68,7 @@ class _AkosScreenState extends State<AkosScreen> {
                           SizedBox(height: 10),
                           Text('Damage',
                             style: TextStyle(
+                              fontFamily: 'PermanentMarker',
                               color: Colors.black,
                               fontSize: 28,
                               fontWeight: FontWeight.bold,
@@ -106,6 +108,7 @@ class _AkosScreenState extends State<AkosScreen> {
                         "About",
                         style: TextStyle(
                           fontSize: 30,
+                          fontFamily: 'PermanentMarker',
                           fontWeight: FontWeight.bold,
                           letterSpacing: 1,
                           color: Colors.black,
@@ -116,7 +119,7 @@ class _AkosScreenState extends State<AkosScreen> {
                           "She is the Frosty Shadow who vows to bury her enemies in the snow or the lonely Winter's Grace who "
                           "is eager to find her family back.",
                         style: TextStyle(
-                          fontSize: 14,
+                          fontSize: 16,
                           fontWeight: FontWeight.w500,
                         ),
                       ),
@@ -128,6 +131,7 @@ class _AkosScreenState extends State<AkosScreen> {
                               "Skills",
                               style: TextStyle(
                                 fontSize: 30,
+                                fontFamily: 'PermanentMarker',
                                 fontWeight: FontWeight.bold,
                                 letterSpacing: 1,
                                 color: Colors.black,
@@ -137,6 +141,7 @@ class _AkosScreenState extends State<AkosScreen> {
                             Text("Ultimates",
                                 style: TextStyle(
                                   fontSize: 30,
+                                  fontFamily: 'PermanentMarker',
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1,
                                   color: Colors.black,
@@ -158,7 +163,7 @@ class _AkosScreenState extends State<AkosScreen> {
                                 "after being attacked or when the effect ends.",
 
                                 style: TextStyle(
-                                  fontSize: 14,
+                                  fontSize: 16,
                                   color: Colors.black,
                                 ),
                               ),
@@ -186,7 +191,7 @@ class _AkosScreenState extends State<AkosScreen> {
                                     "[Lunge] at a banner to climb on it and launch a Tiger-Claw Scale Rush in Golden Focus. [Lunge] at a banner can be used under attack.",
 
                                     style: TextStyle(
-                                      fontSize: 14,
+                                      fontSize: 16,
                                       color: Colors.black,
                                     ))
                             )

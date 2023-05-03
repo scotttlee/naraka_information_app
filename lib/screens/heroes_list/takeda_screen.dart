@@ -48,7 +48,8 @@ class _TakedaScreenState extends State<TakedaScreen> {
                           children: [
                             Text('Takeda Nobutada',
                               style: TextStyle(
-                                  fontSize: 32,
+                                  fontSize: 30,
+                                  fontFamily: 'PermanentMarker',
                                   color: Colors.black,
                                   fontWeight: FontWeight.bold
                               ),
@@ -67,6 +68,7 @@ class _TakedaScreenState extends State<TakedaScreen> {
                           SizedBox(height: 10),
                           Text('Damage',
                             style: TextStyle(
+                              fontFamily: 'PermanentMarker',
                               color: Colors.black,
                               fontSize: 28,
                               fontWeight: FontWeight.bold,
@@ -106,6 +108,7 @@ class _TakedaScreenState extends State<TakedaScreen> {
                         "About",
                         style: TextStyle(
                           fontSize: 30,
+                          fontFamily: 'PermanentMarker',
                           fontWeight: FontWeight.bold,
                           letterSpacing: 1,
                           color: Colors.black,
@@ -116,7 +119,7 @@ class _TakedaScreenState extends State<TakedaScreen> {
                           "we must still stand by our friends and never break their trust. If faced with a dead end, raise your blade and cut out a new path!"
                           "Though my body may one day stumble and fall, never shall I forsake my honor!",
                         style: TextStyle(
-                          fontSize: 14,
+                          fontSize: 16,
                           fontWeight: FontWeight.w500,
                         ),
                       ),
@@ -128,6 +131,7 @@ class _TakedaScreenState extends State<TakedaScreen> {
                               "Skills",
                               style: TextStyle(
                                 fontSize: 30,
+                                fontFamily: 'PermanentMarker',
                                 fontWeight: FontWeight.bold,
                                 letterSpacing: 1,
                                 color: Colors.black,
@@ -137,6 +141,7 @@ class _TakedaScreenState extends State<TakedaScreen> {
                             Text("Ultimates",
                                 style: TextStyle(
                                   fontSize: 30,
+                                  fontFamily: 'PermanentMarker',
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1,
                                   color: Colors.black,
@@ -158,7 +163,7 @@ class _TakedaScreenState extends State<TakedaScreen> {
                                     "Gain a great Damage Reduction when casting the skill.",
 
                                 style: TextStyle(
-                                  fontSize: 14,
+                                  fontSize: 16,
                                   color: Colors.black,
                                 ),
                               ),
@@ -180,7 +185,7 @@ class _TakedaScreenState extends State<TakedaScreen> {
                                     "Furen can be used when Takeda is under attack or controlled, and does not interrupt his movements.",
 
                                     style: TextStyle(
-                                      fontSize: 14,
+                                      fontSize: 16,
                                       color: Colors.black,
                                     ))
                             )

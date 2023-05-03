@@ -18,7 +18,7 @@ class _WuChenScreenState extends State<WuChenScreen> {
           onPressed: () => Navigator.pop(context),
           icon: const Icon(
             Icons.arrow_back_ios,
-            color: Colors.white,
+            color: Colors.black,
           ),
         ),
       ),
@@ -49,6 +49,7 @@ class _WuChenScreenState extends State<WuChenScreen> {
                             Text('Wuchen',
                               style: TextStyle(
                                   fontSize: 36,
+                                  fontFamily: 'PermanentMarker',
                                   color: Colors.black,
                                   fontWeight: FontWeight.bold
                               ),
@@ -68,6 +69,7 @@ class _WuChenScreenState extends State<WuChenScreen> {
                           Text('Support',
                             style: TextStyle(
                               color: Colors.black,
+                              fontFamily: 'PermanentMarker',
                               fontSize: 28,
                               fontWeight: FontWeight.bold,
                             ),
@@ -106,6 +108,7 @@ class _WuChenScreenState extends State<WuChenScreen> {
                         "About",
                         style: TextStyle(
                           fontSize: 30,
+                          fontFamily: 'PermanentMarker',
                           fontWeight: FontWeight.bold,
                           letterSpacing: 1,
                           color: Colors.black,
@@ -117,7 +120,7 @@ class _WuChenScreenState extends State<WuChenScreen> {
                           "the Heralds' secret envoy. He believes that one can reach complete understanding and become "
                           "an Elucidae if only we cast off the rules that bind us.",
                         style: TextStyle(
-                          fontSize: 14,
+                          fontSize: 16,
                           fontWeight: FontWeight.w500,
                         ),
                       ),
@@ -129,6 +132,7 @@ class _WuChenScreenState extends State<WuChenScreen> {
                               "Skills",
                               style: TextStyle(
                                 fontSize: 30,
+                                fontFamily: 'PermanentMarker',
                                 fontWeight: FontWeight.bold,
                                 letterSpacing: 1,
                                 color: Colors.black,
@@ -138,6 +142,7 @@ class _WuChenScreenState extends State<WuChenScreen> {
                             Text("Ultimates",
                                 style: TextStyle(
                                   fontSize: 30,
+                                  fontFamily: 'PermanentMarker',
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1,
                                   color: Colors.black,
@@ -162,7 +167,7 @@ class _WuChenScreenState extends State<WuChenScreen> {
                                     "-Can be used under attack.",
 
                                 style: TextStyle(
-                                  fontSize: 14,
+                                  fontSize: 16,
                                   color: Colors.black,
                                 ),
                               ),
@@ -181,7 +186,7 @@ class _WuChenScreenState extends State<WuChenScreen> {
                                     "-Can be used under attack.",
 
                                     style: TextStyle(
-                                      fontSize: 14,
+                                      fontSize: 16,
                                       color: Colors.black,
                                     ))
                             )

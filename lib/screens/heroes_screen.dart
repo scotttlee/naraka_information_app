@@ -15,7 +15,6 @@ import 'package:naraka_information_app/screens/heroes_list/wuchen_screen.dart';
 import 'package:naraka_information_app/screens/heroes_list/yoto_screen.dart';
 import 'package:naraka_information_app/screens/heroes_list/yueshan_screen.dart';
 import 'package:naraka_information_app/screens/heroes_list/ziping_screen.dart';
-import 'package:naraka_information_app/screens/ranged_weapons_screen.dart';
 
 import 'melee_weapons_screen.dart';
 
@@ -57,6 +56,7 @@ class _HeroesScreenState extends State<HeroesScreen> {
                       textAlign: TextAlign.center,
                       style:
                       TextStyle(fontSize: 60,
+                          fontFamily: 'PermanentMarker',
                           fontWeight: FontWeight.w900)),
                   SizedBox(height: 50),
                   SizedBox(
@@ -71,8 +71,10 @@ class _HeroesScreenState extends State<HeroesScreen> {
                         },
                         child: Text("Viper Ning",
                             textAlign: TextAlign.center,
+
                             style: TextStyle(
-                                fontSize: 36
+                                fontSize: 36,
+                              fontFamily: 'PermanentMarker',
                             ))),
                   ),
                   SizedBox(height: 50),
@@ -89,7 +91,8 @@ class _HeroesScreenState extends State<HeroesScreen> {
                         child: Text("Temulch",
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                                fontSize: 36
+                                fontSize: 36,
+                              fontFamily: 'PermanentMarker',
                             ))),
                   ),
                   SizedBox(height: 50),
@@ -106,7 +109,8 @@ class _HeroesScreenState extends State<HeroesScreen> {
                         child: Text("Matari",
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                                fontSize: 36
+                                fontSize: 36,
+                              fontFamily: 'PermanentMarker',
                             ))),
                   ),
                   SizedBox(height: 50),
@@ -123,7 +127,8 @@ class _HeroesScreenState extends State<HeroesScreen> {
                         child: Text("Tarka Ji",
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                                fontSize: 36
+                                fontSize: 36,
+                              fontFamily: 'PermanentMarker',
                             ))),
                   ),
                   SizedBox(height: 50),
@@ -140,7 +145,8 @@ class _HeroesScreenState extends State<HeroesScreen> {
                         child: Text("Kurumi",
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                                fontSize: 36
+                                fontSize: 36,
+                              fontFamily: 'PermanentMarker',
                             ))),
                   ),
                   SizedBox(height: 50),
@@ -157,7 +163,8 @@ class _HeroesScreenState extends State<HeroesScreen> {
                         child: Text("Tianhai",
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                                fontSize: 36
+                                fontSize: 36,
+                              fontFamily: 'PermanentMarker',
                             ))),
                   ),
                   SizedBox(height: 50),
@@ -174,7 +181,8 @@ class _HeroesScreenState extends State<HeroesScreen> {
                         child: Text("Yoto Hime",
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                                fontSize: 36
+                                fontSize: 36,
+                              fontFamily: 'PermanentMarker',
                             ))),
                   ),
                   SizedBox(height: 50),
@@ -191,7 +199,8 @@ class _HeroesScreenState extends State<HeroesScreen> {
                         child: Text("Valda Cui",
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                                fontSize: 36
+                                fontSize: 36,
+                              fontFamily: 'PermanentMarker',
                             ))),
                   ),
                   SizedBox(height: 50),
@@ -208,7 +217,8 @@ class _HeroesScreenState extends State<HeroesScreen> {
                         child: Text("Yueshan",
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                                fontSize: 36
+                                fontSize: 36,
+                              fontFamily: 'PermanentMarker',
                             ))),
                   ),
                   SizedBox(height: 50),
@@ -225,7 +235,8 @@ class _HeroesScreenState extends State<HeroesScreen> {
                         child: Text("Wuchen",
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                                fontSize: 36
+                                fontSize: 36,
+                              fontFamily: 'PermanentMarker',
                             ))),
                   ),
                   SizedBox(height: 50),
@@ -242,7 +253,8 @@ class _HeroesScreenState extends State<HeroesScreen> {
                         child: Text("Justina Gu",
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                                fontSize: 36
+                                fontSize: 36,
+                              fontFamily: 'PermanentMarker',
                             ))),
                   ),
                   SizedBox(height: 50),
@@ -259,7 +271,8 @@ class _HeroesScreenState extends State<HeroesScreen> {
                         child: Text("Takeda Nobutada",
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                                fontSize: 36
+                                fontSize: 36,
+                              fontFamily: 'PermanentMarker',
                             ))),
                   ),
                   SizedBox(height: 50),
@@ -276,7 +289,8 @@ class _HeroesScreenState extends State<HeroesScreen> {
                         child: Text("Ziping Yin",
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                                fontSize: 36
+                                fontSize: 36,
+                              fontFamily: 'PermanentMarker',
                             ))),
                   ),
                   SizedBox(height: 50),
@@ -293,7 +307,8 @@ class _HeroesScreenState extends State<HeroesScreen> {
                         child: Text("Feria Shen",
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                                fontSize: 36
+                                fontSize: 36,
+                              fontFamily: 'PermanentMarker',
                             ))),
                   ),
                   SizedBox(height: 50),
@@ -310,7 +325,8 @@ class _HeroesScreenState extends State<HeroesScreen> {
                         child: Text("Akos Hu",
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                                fontSize: 36
+                                fontSize: 36,
+                              fontFamily: 'PermanentMarker',
                             ))),
                   ),
                   SizedBox(height: 50)

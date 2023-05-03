@@ -50,7 +50,8 @@ class _TemulchScreenState extends State<TemulchScreen> {
                               style: TextStyle(
                                   fontSize: 36,
                                   color: Colors.black,
-                                  fontWeight: FontWeight.bold
+                                  fontWeight: FontWeight.bold,
+                                fontFamily: 'PermanentMarker',
                               ),
                             ),
                           ],
@@ -69,6 +70,7 @@ class _TemulchScreenState extends State<TemulchScreen> {
                             style: TextStyle(
                               color: Colors.black,
                               fontSize: 28,
+                              fontFamily: 'PermanentMarker',
                               fontWeight: FontWeight.bold,
                             ),
                           ),
@@ -106,6 +108,7 @@ class _TemulchScreenState extends State<TemulchScreen> {
                         "About",
                         style: TextStyle(
                           fontSize: 30,
+                          fontFamily: 'PermanentMarker',
                           fontWeight: FontWeight.bold,
                           letterSpacing: 1,
                           color: Colors.black,
@@ -117,7 +120,7 @@ class _TemulchScreenState extends State<TemulchScreen> {
                           "into his mind, and the glory he seeks is so near he can almost taste it. "
                           "The Grey Wolf shall strike again.",
                         style: TextStyle(
-                          fontSize: 14,
+                          fontSize: 16,
                           fontWeight: FontWeight.w500,
                         ),
                       ),
@@ -129,6 +132,7 @@ class _TemulchScreenState extends State<TemulchScreen> {
                               "Skills",
                               style: TextStyle(
                                 fontSize: 30,
+                                fontFamily: 'PermanentMarker',
                                 fontWeight: FontWeight.bold,
                                 letterSpacing: 1,
                                 color: Colors.black,
@@ -138,6 +142,7 @@ class _TemulchScreenState extends State<TemulchScreen> {
                             Text("Ultimates",
                                 style: TextStyle(
                                   fontSize: 30,
+                                  fontFamily: 'PermanentMarker',
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1,
                                   color: Colors.black,
@@ -159,7 +164,7 @@ class _TemulchScreenState extends State<TemulchScreen> {
                                     "\n-Tap F to shoot. Windballs will bounce when hitting the scene, then penetrate and blow enemies"
                                     "into a whirlwind.\n\n",
                                 style: TextStyle(
-                                  fontSize: 14,
+                                  fontSize: 16,
                                   color: Colors.black,
                                 ),
                               ),
@@ -179,7 +184,7 @@ class _TemulchScreenState extends State<TemulchScreen> {
                                     "-When Temulch passes through his or enemies' prison, windball will be reloaded.",
 
                                     style: TextStyle(
-                                      fontSize: 14,
+                                      fontSize: 16,
                                       color: Colors.black,
                                     ))
                             )

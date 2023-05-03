@@ -46,10 +46,11 @@ class _MatariScreenState extends State<MatariScreen> {
                       SizedBox(
                         child: Column(
                           children: [
-                            Text('Mataria',
+                            Text('Matari',
                               style: TextStyle(
                                   fontSize: 36,
                                   color: Colors.black,
+                                  fontFamily: 'PermanentMarker',
                                   fontWeight: FontWeight.bold
                               ),
                             ),
@@ -68,6 +69,7 @@ class _MatariScreenState extends State<MatariScreen> {
                           Text('Support',
                             style: TextStyle(
                               color: Colors.black,
+                              fontFamily: 'PermanentMarker',
                               fontSize: 28,
                               fontWeight: FontWeight.bold,
                             ),
@@ -106,6 +108,7 @@ class _MatariScreenState extends State<MatariScreen> {
                         "About",
                         style: TextStyle(
                           fontSize: 30,
+                          fontFamily: 'PermanentMarker',
                           fontWeight: FontWeight.bold,
                           letterSpacing: 1,
                           color: Colors.black,
@@ -116,7 +119,7 @@ class _MatariScreenState extends State<MatariScreen> {
                           "new heights by mastering ancient secret art, she now roams the ruins like a phantom devil."
                           "She's a bewitching eidolon, yet a nightmare to aristocrats.",
                         style: TextStyle(
-                          fontSize: 14,
+                          fontSize: 16,
                           fontWeight: FontWeight.w500,
                         ),
                       ),
@@ -130,6 +133,7 @@ class _MatariScreenState extends State<MatariScreen> {
                                 fontSize: 30,
                                 fontWeight: FontWeight.bold,
                                 letterSpacing: 1,
+                                fontFamily: 'PermanentMarker',
                                 color: Colors.black,
                               ),
                             ),
@@ -139,6 +143,7 @@ class _MatariScreenState extends State<MatariScreen> {
                                   fontSize: 30,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1,
+                                  fontFamily: 'PermanentMarker',
                                   color: Colors.black,
                                 ))
                           ]
@@ -155,7 +160,7 @@ class _MatariScreenState extends State<MatariScreen> {
                                     "Tap F again can return to the marker. "
                                     "\n-Can be used under attack.\n\n",
                                 style: TextStyle(
-                                  fontSize: 14,
+                                  fontSize: 16,
                                   color: Colors.black,
                                 ),
                               ),
@@ -177,7 +182,7 @@ class _MatariScreenState extends State<MatariScreen> {
                                     "-Allies can restore themselves by attacking enemies.",
 
                                     style: TextStyle(
-                                      fontSize: 14,
+                                      fontSize: 16,
                                       color: Colors.black,
                                     ))
                             )

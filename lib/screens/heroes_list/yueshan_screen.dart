@@ -18,7 +18,7 @@ class _YueshanScreenState extends State<YueshanScreen> {
           onPressed: () => Navigator.pop(context),
           icon: const Icon(
             Icons.arrow_back_ios,
-            color: Colors.white,
+            color: Colors.black,
           ),
         ),
       ),
@@ -49,6 +49,7 @@ class _YueshanScreenState extends State<YueshanScreen> {
                             Text('Yueshan',
                               style: TextStyle(
                                   fontSize: 36,
+                                  fontFamily: 'PermanentMarker',
                                   color: Colors.black,
                                   fontWeight: FontWeight.bold
                               ),
@@ -67,6 +68,7 @@ class _YueshanScreenState extends State<YueshanScreen> {
                           SizedBox(height: 10),
                           Text('Transformer',
                             style: TextStyle(
+                              fontFamily: 'PermanentMarker',
                               color: Colors.black,
                               fontSize: 28,
                               fontWeight: FontWeight.bold,
@@ -106,6 +108,7 @@ class _YueshanScreenState extends State<YueshanScreen> {
                         "About",
                         style: TextStyle(
                           fontSize: 30,
+                          fontFamily: 'PermanentMarker',
                           fontWeight: FontWeight.bold,
                           letterSpacing: 1,
                           color: Colors.black,
@@ -118,7 +121,7 @@ class _YueshanScreenState extends State<YueshanScreen> {
                           "As the enemy approaches our garrisons from all four corners and the winds soar high, "
                           "the general will rise to defend the kingdom.",
                         style: TextStyle(
-                          fontSize: 14,
+                          fontSize: 16,
                           fontWeight: FontWeight.w500,
                         ),
                       ),
@@ -129,6 +132,7 @@ class _YueshanScreenState extends State<YueshanScreen> {
                             Text(
                               "Skills",
                               style: TextStyle(
+                                fontFamily: 'PermanentMarker',
                                 fontSize: 30,
                                 fontWeight: FontWeight.bold,
                                 letterSpacing: 1,
@@ -138,6 +142,7 @@ class _YueshanScreenState extends State<YueshanScreen> {
                             SizedBox(width: 100),
                             Text("Ultimates",
                                 style: TextStyle(
+                                  fontFamily: 'PermanentMarker',
                                   fontSize: 30,
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1,
@@ -155,7 +160,7 @@ class _YueshanScreenState extends State<YueshanScreen> {
                                     "Line Breaker: Ambition \n Leap skyward and slam the ground, knocking back enemies and reducing their attack.",
 
                                 style: TextStyle(
-                                  fontSize: 14,
+                                  fontSize: 16,
                                   color: Colors.black,
                                 ),
                               ),
@@ -174,7 +179,7 @@ class _YueshanScreenState extends State<YueshanScreen> {
                                     "increasing their Damage Reduction.",
 
                                     style: TextStyle(
-                                      fontSize: 14,
+                                      fontSize: 16,
                                       color: Colors.black,
                                     ))
                             )

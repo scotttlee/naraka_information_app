@@ -38,9 +38,9 @@ class _DashboardScreenState extends State<DashboardScreen> {
                 children: <Widget> [
                   SizedBox(height: 50),
                   Center(child: Text("Dashboard",
-                      //textAlign: TextAlign.center,
                       style:
                       TextStyle(fontSize: 60,
+                          fontFamily: 'PermanentMarker',
                           fontWeight: FontWeight.w900)),
                   ),
                   SizedBox(height: 100),
@@ -57,7 +57,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
                         child: Text("Heroes",
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                                fontSize: 36
+                                fontSize: 36,
+                              fontFamily: 'PermanentMarker',
                             ))),
                   ),),
                   SizedBox(height: 100),
@@ -74,7 +75,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
                         child: Text("Ranged Weapons",
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                                fontSize: 36
+                                fontSize: 36,
+                              fontFamily: 'PermanentMarker',
                             ))),
                   ),),
                   SizedBox(height: 100),
@@ -91,7 +93,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
                         child: Text("Melee Weapons",
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                                fontSize: 36
+                                fontSize: 36,
+                              fontFamily: 'PermanentMarker',
                             ))),
                   ),),
                   SizedBox(height: 50)

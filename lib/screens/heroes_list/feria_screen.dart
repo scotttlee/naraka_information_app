@@ -49,6 +49,7 @@ class _FeriaScreenState extends State<FeriaScreen> {
                             Text('Feria Shen',
                               style: TextStyle(
                                   fontSize: 36,
+                                  fontFamily: 'PermanentMarker',
                                   color: Colors.black,
                                   fontWeight: FontWeight.bold
                               ),
@@ -67,6 +68,7 @@ class _FeriaScreenState extends State<FeriaScreen> {
                           SizedBox(height: 10),
                           Text('Transformer',
                             style: TextStyle(
+                              fontFamily: 'PermanentMarker',
                               color: Colors.black,
                               fontSize: 28,
                               fontWeight: FontWeight.bold,
@@ -106,6 +108,7 @@ class _FeriaScreenState extends State<FeriaScreen> {
                         "About",
                         style: TextStyle(
                           fontSize: 30,
+                          fontFamily: 'PermanentMarker',
                           fontWeight: FontWeight.bold,
                           letterSpacing: 1,
                           color: Colors.black,
@@ -116,7 +119,7 @@ class _FeriaScreenState extends State<FeriaScreen> {
                           "instead grew up obsessed with guns and explosives. Now an adult, she loves nothing more than breaking rules and "
                           "causing trouble (especially when that means blowing something up). Try and stop her, and you'll be her next victim!",
                         style: TextStyle(
-                          fontSize: 14,
+                          fontSize: 16,
                           fontWeight: FontWeight.w500,
                         ),
                       ),
@@ -128,6 +131,7 @@ class _FeriaScreenState extends State<FeriaScreen> {
                               "Skills",
                               style: TextStyle(
                                 fontSize: 30,
+                                fontFamily: 'PermanentMarker',
                                 fontWeight: FontWeight.bold,
                                 letterSpacing: 1,
                                 color: Colors.black,
@@ -137,6 +141,7 @@ class _FeriaScreenState extends State<FeriaScreen> {
                             Text("Ultimates",
                                 style: TextStyle(
                                   fontSize: 30,
+                                  fontFamily: 'PermanentMarker',
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1,
                                   color: Colors.black,
@@ -157,7 +162,7 @@ class _FeriaScreenState extends State<FeriaScreen> {
                                     "-Move the crosshair while using this skill to adjust the leap direction.",
 
                                 style: TextStyle(
-                                  fontSize: 14,
+                                  fontSize: 16,
                                   color: Colors.black,
                                 ),
                               ),
@@ -184,7 +189,7 @@ class _FeriaScreenState extends State<FeriaScreen> {
                                     "damage and builds Energy faster (but its own Energy recovery speed is slower).",
 
                                     style: TextStyle(
-                                      fontSize: 14,
+                                      fontSize: 16,
                                       color: Colors.black,
                                     ))
                             )

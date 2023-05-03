@@ -18,7 +18,7 @@ class _ViperScreenState extends State<ViperScreen> {
           onPressed: () => Navigator.pop(context),
           icon: const Icon(
             Icons.arrow_back_ios,
-            color: Colors.white,
+            color: Colors.black,
           ),
         ),
       ),
@@ -50,6 +50,7 @@ class _ViperScreenState extends State<ViperScreen> {
                               style: TextStyle(
                                   fontSize: 36,
                                   color: Colors.black,
+                                  fontFamily: 'PermanentMarker',
                                   fontWeight: FontWeight.bold
                               ),
                             ),
@@ -67,6 +68,7 @@ class _ViperScreenState extends State<ViperScreen> {
                           SizedBox(height: 10),
                           Text('Control',
                             style: TextStyle(
+                              fontFamily: 'PermanentMarker',
                               color: Colors.black,
                               fontSize: 28,
                               fontWeight: FontWeight.bold,
@@ -109,12 +111,13 @@ class _ViperScreenState extends State<ViperScreen> {
                           fontWeight: FontWeight.bold,
                           letterSpacing: 1,
                           color: Colors.black,
+                          fontFamily: 'PermanentMarker',
                         ),
                       ),
                       const SizedBox(height: 5),
                       Text("The Blind Blademaster of Yushan. Viper Ning's very blood has long been suffused with deadly poison. She stands atop the precipice of all mankind, her blades ever at the ready. Her eyes shall never behold this world until the time of destiny is nigh.",
                         style: TextStyle(
-                          fontSize: 14,
+                          fontSize: 16,
                           fontWeight: FontWeight.w500,
                         ),
                       ),
@@ -129,6 +132,7 @@ class _ViperScreenState extends State<ViperScreen> {
                               fontWeight: FontWeight.bold,
                               letterSpacing: 1,
                               color: Colors.black,
+                              fontFamily: 'PermanentMarker',
                             ),
                           ),
                           SizedBox(width: 100),
@@ -138,6 +142,7 @@ class _ViperScreenState extends State<ViperScreen> {
                             fontWeight: FontWeight.bold,
                             letterSpacing: 1,
                             color: Colors.black,
+                            fontFamily: 'PermanentMarker',
                           ))
                         ]
                       ),
@@ -149,7 +154,7 @@ class _ViperScreenState extends State<ViperScreen> {
                                   "Yushan Enigma: Lockdown: \nAttack enemies ahead and ban their skill and ultimate.\n\n"
                                   "Yushan Enigma: Enfeeble: \nKnock enemies ahead into the air, dealing high damage and reducing their recovery effect.",
                               style: TextStyle(
-                                fontSize: 14,
+                                fontSize: 16,
                                 color: Colors.black,
                               ),
                               ),
@@ -169,7 +174,7 @@ class _ViperScreenState extends State<ViperScreen> {
                                     "-Viper Ning can move freely during summoning.",
 
                                     style: TextStyle(
-                                      fontSize: 14,
+                                      fontSize: 16,
                                       color: Colors.black,
                                     ))
                             )

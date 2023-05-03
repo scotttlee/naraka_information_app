@@ -18,7 +18,7 @@ class _ValdaScreenState extends State<ValdaScreen> {
           onPressed: () => Navigator.pop(context),
           icon: const Icon(
             Icons.arrow_back_ios,
-            color: Colors.white,
+            color: Colors.black,
           ),
         ),
       ),
@@ -49,6 +49,7 @@ class _ValdaScreenState extends State<ValdaScreen> {
                             Text('Valda Cui',
                               style: TextStyle(
                                   fontSize: 36,
+                                  fontFamily: 'PermanentMarker',
                                   color: Colors.black,
                                   fontWeight: FontWeight.bold
                               ),
@@ -68,6 +69,7 @@ class _ValdaScreenState extends State<ValdaScreen> {
                           Text('Control',
                             style: TextStyle(
                               color: Colors.black,
+                              fontFamily: 'PermanentMarker',
                               fontSize: 28,
                               fontWeight: FontWeight.bold,
                             ),
@@ -106,6 +108,7 @@ class _ValdaScreenState extends State<ValdaScreen> {
                         "About",
                         style: TextStyle(
                           fontSize: 30,
+                          fontFamily: 'PermanentMarker',
                           fontWeight: FontWeight.bold,
                           letterSpacing: 1,
                           color: Colors.black,
@@ -118,7 +121,7 @@ class _ValdaScreenState extends State<ValdaScreen> {
                           "she's a most talented figure that fights for the justice she holds dear. "
                           "What's more, she's a dominant force in all four seas and is sure to make some serious waves.",
                         style: TextStyle(
-                          fontSize: 14,
+                          fontSize: 16,
                           fontWeight: FontWeight.w500,
                         ),
                       ),
@@ -130,6 +133,7 @@ class _ValdaScreenState extends State<ValdaScreen> {
                               "Skills",
                               style: TextStyle(
                                 fontSize: 30,
+                                fontFamily: 'PermanentMarker',
                                 fontWeight: FontWeight.bold,
                                 letterSpacing: 1,
                                 color: Colors.black,
@@ -139,6 +143,7 @@ class _ValdaScreenState extends State<ValdaScreen> {
                             Text("Ultimates",
                                 style: TextStyle(
                                   fontSize: 30,
+                                  fontFamily: 'PermanentMarker',
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1,
                                   color: Colors.black,
@@ -162,7 +167,7 @@ class _ValdaScreenState extends State<ValdaScreen> {
                                     "-[Soaked]: Decrease enemies' Attack, and immediately trigger all remaining [Burn] damage.",
 
                                 style: TextStyle(
-                                  fontSize: 14,
+                                  fontSize: 16,
                                   color: Colors.black,
                                 ),
                               ),
@@ -184,7 +189,7 @@ class _ValdaScreenState extends State<ValdaScreen> {
                                     "-[Soaked]: Decrease enemies' Attack, and immediately trigger all remaining [Burn] damage.",
 
                                     style: TextStyle(
-                                      fontSize: 14,
+                                      fontSize: 16,
                                       color: Colors.black,
                                     ))
                             )

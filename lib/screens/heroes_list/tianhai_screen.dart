@@ -49,6 +49,7 @@ class _TianhaiScreenState extends State<TianhaiScreen> {
                             Text('Tianhai',
                               style: TextStyle(
                                   fontSize: 36,
+                                  fontFamily: 'PermanentMarker',
                                   color: Colors.black,
                                   fontWeight: FontWeight.bold
                               ),
@@ -68,6 +69,7 @@ class _TianhaiScreenState extends State<TianhaiScreen> {
                           Text('Transformer',
                             style: TextStyle(
                               color: Colors.black,
+                              fontFamily: 'PermanentMarker',
                               fontSize: 28,
                               fontWeight: FontWeight.bold,
                             ),
@@ -106,6 +108,7 @@ class _TianhaiScreenState extends State<TianhaiScreen> {
                         "About",
                         style: TextStyle(
                           fontSize: 30,
+                          fontFamily: 'PermanentMarker',
                           fontWeight: FontWeight.bold,
                           letterSpacing: 1,
                           color: Colors.black,
@@ -116,7 +119,7 @@ class _TianhaiScreenState extends State<TianhaiScreen> {
                           " - and at any cost. This humble monk transforms into a colossal Vajra warrior, spurned by "
                           "unbridled fury all those who stand in its path shall feel.",
                         style: TextStyle(
-                          fontSize: 14,
+                          fontSize: 16,
                           fontWeight: FontWeight.w500,
                         ),
                       ),
@@ -128,6 +131,7 @@ class _TianhaiScreenState extends State<TianhaiScreen> {
                               "Skills",
                               style: TextStyle(
                                 fontSize: 30,
+                                fontFamily: 'PermanentMarker',
                                 fontWeight: FontWeight.bold,
                                 letterSpacing: 1,
                                 color: Colors.black,
@@ -137,6 +141,7 @@ class _TianhaiScreenState extends State<TianhaiScreen> {
                             Text("Ultimates",
                                 style: TextStyle(
                                   fontSize: 30,
+                                  fontFamily: 'PermanentMarker',
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1,
                                   color: Colors.black,
@@ -155,7 +160,7 @@ class _TianhaiScreenState extends State<TianhaiScreen> {
                                     "-Can knock nearby enemies airborne.",
 
                                 style: TextStyle(
-                                  fontSize: 14,
+                                  fontSize: 16,
                                   color: Colors.black,
                                 ),
                               ),
@@ -175,7 +180,7 @@ class _TianhaiScreenState extends State<TianhaiScreen> {
                                     "-Shining parts of Vajra are weaker.",
 
                                     style: TextStyle(
-                                      fontSize: 14,
+                                      fontSize: 16,
                                       color: Colors.black,
                                     ))
                             )

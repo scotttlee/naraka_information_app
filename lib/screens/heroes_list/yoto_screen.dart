@@ -18,7 +18,7 @@ class _YotoScreenState extends State<YotoScreen> {
           onPressed: () => Navigator.pop(context),
           icon: const Icon(
             Icons.arrow_back_ios,
-            color: Colors.white,
+            color: Colors.black,
           ),
         ),
       ),
@@ -49,6 +49,7 @@ class _YotoScreenState extends State<YotoScreen> {
                             Text('Yoto Hime',
                               style: TextStyle(
                                   fontSize: 36,
+                                  fontFamily: 'PermanentMarker',
                                   color: Colors.black,
                                   fontWeight: FontWeight.bold
                               ),
@@ -68,6 +69,7 @@ class _YotoScreenState extends State<YotoScreen> {
                           Text('Damage',
                             style: TextStyle(
                               color: Colors.black,
+                              fontFamily: 'PermanentMarker',
                               fontSize: 28,
                               fontWeight: FontWeight.bold,
                             ),
@@ -106,6 +108,7 @@ class _YotoScreenState extends State<YotoScreen> {
                         "About",
                         style: TextStyle(
                           fontSize: 30,
+                          fontFamily: 'PermanentMarker',
                           fontWeight: FontWeight.bold,
                           letterSpacing: 1,
                           color: Colors.black,
@@ -116,7 +119,7 @@ class _YotoScreenState extends State<YotoScreen> {
                           "Terrifying, is it not? That's power for you: it strikes a fear deep down inside. Sometimes"
                           "great strength is no good thing at all. It is a burden that must be carried, and controlled.",
                         style: TextStyle(
-                          fontSize: 14,
+                          fontSize: 16,
                           fontWeight: FontWeight.w500,
                         ),
                       ),
@@ -128,6 +131,7 @@ class _YotoScreenState extends State<YotoScreen> {
                               "Skills",
                               style: TextStyle(
                                 fontSize: 30,
+                                fontFamily: 'PermanentMarker',
                                 fontWeight: FontWeight.bold,
                                 letterSpacing: 1,
                                 color: Colors.black,
@@ -137,6 +141,7 @@ class _YotoScreenState extends State<YotoScreen> {
                             Text("Ultimates",
                                 style: TextStyle(
                                   fontSize: 30,
+                                  fontFamily: 'PermanentMarker',
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1,
                                   color: Colors.black,
@@ -156,7 +161,7 @@ class _YotoScreenState extends State<YotoScreen> {
                                     "-Can be used under attack.",
 
                                 style: TextStyle(
-                                  fontSize: 14,
+                                  fontSize: 16,
                                   color: Colors.black,
                                 ),
                               ),
@@ -176,7 +181,7 @@ class _YotoScreenState extends State<YotoScreen> {
                                     "-Tap RMB to launch a slash immediately.\n\n",
 
                                     style: TextStyle(
-                                      fontSize: 14,
+                                      fontSize: 16,
                                       color: Colors.black,
                                     ))
                             )

@@ -18,7 +18,7 @@ class _TarkaScreenState extends State<TarkaScreen> {
           onPressed: () => Navigator.pop(context),
           icon: const Icon(
             Icons.arrow_back_ios,
-            color: Colors.white,
+            color: Colors.black,
           ),
         ),
       ),
@@ -49,6 +49,7 @@ class _TarkaScreenState extends State<TarkaScreen> {
                             Text('Tarka Ji',
                               style: TextStyle(
                                   fontSize: 36,
+                                  fontFamily: 'PermanentMarker',
                                   color: Colors.black,
                                   fontWeight: FontWeight.bold
                               ),
@@ -67,6 +68,7 @@ class _TarkaScreenState extends State<TarkaScreen> {
                           SizedBox(height: 10),
                           Text('Damage',
                             style: TextStyle(
+                              fontFamily: 'PermanentMarker',
                               color: Colors.black,
                               fontSize: 28,
                               fontWeight: FontWeight.bold,
@@ -106,6 +108,7 @@ class _TarkaScreenState extends State<TarkaScreen> {
                         "About",
                         style: TextStyle(
                           fontSize: 30,
+                          fontFamily: 'PermanentMarker',
                           fontWeight: FontWeight.bold,
                           letterSpacing: 1,
                           color: Colors.black,
@@ -117,7 +120,7 @@ class _TarkaScreenState extends State<TarkaScreen> {
                           "His indomitable spirit lends him strength in the face of adversity. The road ahead is "
                           "fraught with hardship. But no matter how challenging, he'll face it gladly, sword in hand.",
                         style: TextStyle(
-                          fontSize: 14,
+                          fontSize: 16,
                           fontWeight: FontWeight.w500,
                         ),
                       ),
@@ -129,6 +132,7 @@ class _TarkaScreenState extends State<TarkaScreen> {
                               "Skills",
                               style: TextStyle(
                                 fontSize: 30,
+                                fontFamily: 'PermanentMarker',
                                 fontWeight: FontWeight.bold,
                                 letterSpacing: 1,
                                 color: Colors.black,
@@ -138,6 +142,7 @@ class _TarkaScreenState extends State<TarkaScreen> {
                             Text("Ultimates",
                                 style: TextStyle(
                                   fontSize: 30,
+                                  fontFamily: 'PermanentMarker',
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1,
                                   color: Colors.black,
@@ -156,7 +161,7 @@ class _TarkaScreenState extends State<TarkaScreen> {
                                     "and makes enemies [Burn] and [Vulnerable]. "
                                     "\n[Vulnerable]: Increase hit damage taken.",
                                 style: TextStyle(
-                                  fontSize: 14,
+                                  fontSize: 16,
                                   color: Colors.black,
                                 ),
                               ),
@@ -178,7 +183,7 @@ class _TarkaScreenState extends State<TarkaScreen> {
                                     "-Can be used under attack.",
 
                                     style: TextStyle(
-                                      fontSize: 14,
+                                      fontSize: 16,
                                       color: Colors.black,
                                     ))
                             )

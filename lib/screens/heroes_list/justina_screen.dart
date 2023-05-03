@@ -49,6 +49,7 @@ class _JustinaScreenState extends State<JustinaScreen> {
                             Text('Justina Gu',
                               style: TextStyle(
                                   fontSize: 36,
+                                  fontFamily: 'PermanentMarker',
                                   color: Colors.black,
                                   fontWeight: FontWeight.bold
                               ),
@@ -67,6 +68,7 @@ class _JustinaScreenState extends State<JustinaScreen> {
                           SizedBox(height: 10),
                           Text('Damage',
                             style: TextStyle(
+                              fontFamily: 'PermanentMarker',
                               color: Colors.black,
                               fontSize: 28,
                               fontWeight: FontWeight.bold,
@@ -106,6 +108,7 @@ class _JustinaScreenState extends State<JustinaScreen> {
                         "About",
                         style: TextStyle(
                           fontSize: 30,
+                          fontFamily: 'PermanentMarker',
                           fontWeight: FontWeight.bold,
                           letterSpacing: 1,
                           color: Colors.black,
@@ -116,7 +119,7 @@ class _JustinaScreenState extends State<JustinaScreen> {
                           "She is the Frosty Shadow who vows to bury her enemies in the snow or the lonely Winter's Grace who "
                           "is eager to find her family back.",
                         style: TextStyle(
-                          fontSize: 14,
+                          fontSize: 16,
                           fontWeight: FontWeight.w500,
                         ),
                       ),
@@ -128,6 +131,7 @@ class _JustinaScreenState extends State<JustinaScreen> {
                               "Skills",
                               style: TextStyle(
                                 fontSize: 30,
+                                fontFamily: 'PermanentMarker',
                                 fontWeight: FontWeight.bold,
                                 letterSpacing: 1,
                                 color: Colors.black,
@@ -137,6 +141,7 @@ class _JustinaScreenState extends State<JustinaScreen> {
                             Text("Ultimates",
                                 style: TextStyle(
                                   fontSize: 30,
+                                  fontFamily: 'PermanentMarker',
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1,
                                   color: Colors.black,
@@ -153,7 +158,7 @@ class _JustinaScreenState extends State<JustinaScreen> {
                                     "Ice Core: Cold Wave: Encase all nearby allies within an [Icy Aura] for 3 sec, blocking all attacks and restoring some Armor.",
 
                                 style: TextStyle(
-                                  fontSize: 14,
+                                  fontSize: 16,
                                   color: Colors.black,
                                 ),
                               ),
@@ -170,7 +175,7 @@ class _JustinaScreenState extends State<JustinaScreen> {
                                     "the enemies that are on its path and not in Ultimate Focus status for 8 sec.",
 
                                     style: TextStyle(
-                                      fontSize: 14,
+                                      fontSize: 16,
                                       color: Colors.black,
                                     ))
                             )

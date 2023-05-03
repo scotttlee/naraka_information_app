@@ -18,7 +18,7 @@ class _KurumiScreenState extends State<KurumiScreen> {
           onPressed: () => Navigator.pop(context),
           icon: const Icon(
             Icons.arrow_back_ios,
-            color: Colors.white,
+            color: Colors.black,
           ),
         ),
       ),
@@ -49,6 +49,7 @@ class _KurumiScreenState extends State<KurumiScreen> {
                             Text('Kurumi',
                               style: TextStyle(
                                   fontSize: 36,
+                                  fontFamily: 'PermanentMarker',
                                   color: Colors.black,
                                   fontWeight: FontWeight.bold
                               ),
@@ -67,6 +68,7 @@ class _KurumiScreenState extends State<KurumiScreen> {
                           SizedBox(height: 10),
                           Text('Healer',
                             style: TextStyle(
+                              fontFamily: 'PermanentMarker',
                               color: Colors.black,
                               fontSize: 28,
                               fontWeight: FontWeight.bold,
@@ -106,6 +108,7 @@ class _KurumiScreenState extends State<KurumiScreen> {
                         "About",
                         style: TextStyle(
                           fontSize: 30,
+                          fontFamily: 'PermanentMarker',
                           fontWeight: FontWeight.bold,
                           letterSpacing: 1,
                           color: Colors.black,
@@ -116,7 +119,7 @@ class _KurumiScreenState extends State<KurumiScreen> {
                           "Onmyoji masters. Kurumi set out from her homeland in search of mystery and to perfect her Onmyodo skills. "
                           "And so, she embarked on the adventure of a lifetime.",
                         style: TextStyle(
-                          fontSize: 14,
+                          fontSize: 16,
                           fontWeight: FontWeight.w500,
                         ),
                       ),
@@ -128,6 +131,7 @@ class _KurumiScreenState extends State<KurumiScreen> {
                               "Skills",
                               style: TextStyle(
                                 fontSize: 30,
+                                fontFamily: 'PermanentMarker',
                                 fontWeight: FontWeight.bold,
                                 letterSpacing: 1,
                                 color: Colors.black,
@@ -137,6 +141,7 @@ class _KurumiScreenState extends State<KurumiScreen> {
                             Text("Ultimates",
                                 style: TextStyle(
                                   fontSize: 30,
+                                  fontFamily: 'PermanentMarker',
                                   fontWeight: FontWeight.bold,
                                   letterSpacing: 1,
                                   color: Colors.black,
@@ -161,7 +166,7 @@ class _KurumiScreenState extends State<KurumiScreen> {
                                     "\n-Tap RMB to increase Damage Reduction of both of both and remove debuffs for each other.",
 
                                 style: TextStyle(
-                                  fontSize: 14,
+                                  fontSize: 16,
                                   color: Colors.black,
                                 ),
                               ),
@@ -177,7 +182,7 @@ class _KurumiScreenState extends State<KurumiScreen> {
                                     "-Can be used under attack.",
 
                                     style: TextStyle(
-                                      fontSize: 14,
+                                      fontSize: 16,
                                       color: Colors.black,
                                     ))
                             )

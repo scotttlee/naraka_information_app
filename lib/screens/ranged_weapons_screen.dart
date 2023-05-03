@@ -35,6 +35,7 @@ class _RangedWeaponsScreenState extends State<RangedWeaponsScreen> {
           children: <Widget>[
             SizedBox(height: 20),
             Center(child: Text('Repeating Crossbow', style: TextStyle(
+                fontFamily: 'PermanentMarker',
               fontSize: 36,
               fontWeight: FontWeight.bold,
               color: Colors.white
@@ -42,6 +43,7 @@ class _RangedWeaponsScreenState extends State<RangedWeaponsScreen> {
             Image.network('https://naraka.wiki/weapons/repeatable-crossbow.webp'),
             SizedBox(height: 20),
             Center(child: Text('Musket', style: TextStyle(
+                fontFamily: 'PermanentMarker',
                 fontSize: 36,
                 fontWeight: FontWeight.bold,
                 color: Colors.white
@@ -49,6 +51,7 @@ class _RangedWeaponsScreenState extends State<RangedWeaponsScreen> {
             Image.network('https://naraka.wiki/weapons/musket.webp'),
             SizedBox(height: 20),
             Center(child: Text('Cannon', style: TextStyle(
+                fontFamily: 'PermanentMarker',
                 fontSize: 36,
                 fontWeight: FontWeight.bold,
                 color: Colors.white
@@ -56,6 +59,7 @@ class _RangedWeaponsScreenState extends State<RangedWeaponsScreen> {
             Image.network('https://naraka.wiki/weapons/cannon.webp'),
             SizedBox(height: 20),
             Center(child: Text('Pistol', style: TextStyle(
+                fontFamily: 'PermanentMarker',
                 fontSize: 36,
                 fontWeight: FontWeight.bold,
                 color: Colors.white
@@ -63,6 +67,7 @@ class _RangedWeaponsScreenState extends State<RangedWeaponsScreen> {
             Image.network('https://naraka.wiki/weapons/pistol.webp'),
             SizedBox(height: 20),
             Center(child: Text('Bow', style: TextStyle(
+                fontFamily: 'PermanentMarker',
                 fontSize: 36,
                 fontWeight: FontWeight.bold,
                 color: Colors.white
@@ -70,6 +75,7 @@ class _RangedWeaponsScreenState extends State<RangedWeaponsScreen> {
             Image.network('https://naraka.wiki/weapons/bow.webp'),
             SizedBox(height: 20),
             Center(child: Text('Swarm', style: TextStyle(
+                fontFamily: 'PermanentMarker',
                 fontSize: 36,
                 fontWeight: FontWeight.bold,
                 color: Colors.white
@@ -77,6 +83,7 @@ class _RangedWeaponsScreenState extends State<RangedWeaponsScreen> {
             Image.network('https://naraka.wiki/weapons/swarm.webp'),
             SizedBox(height: 20),
             Center(child: Text('Flamebringer', style: TextStyle(
+                fontFamily: 'PermanentMarker',
                 fontSize: 36,
                 fontWeight: FontWeight.bold,
                 color: Colors.white
